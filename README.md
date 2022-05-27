@@ -2,6 +2,13 @@
 
 自动车牌识别系统
 
+### 文件目录介绍
+1. LPRGUI.py 本系统的界面文件
+2. LPRGUI.ui qtdesigner生成的系统的界面文件 
+3. README.md 本系统的介绍文件
+4. Run.py 本系统的启动文件
+
+
 ### 功能介绍
 
 1. 使用Python+OpenCV+PyTorch/Tensorflow，通过深度学习技术实现CCPD中国车牌公共数据库的CCPD-Base集中车牌的识别 要求系统带有界面和菜单。
