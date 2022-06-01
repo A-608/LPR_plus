@@ -10,6 +10,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 from LPRGUI import Ui_MainWindow
 
 
+# 主界面的继承类
 class LPR(Ui_MainWindow, QMainWindow):
     def __init__(self):
         super(LPR, self).__init__()
