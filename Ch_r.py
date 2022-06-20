@@ -12,7 +12,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-class Ch_r1:
+class Ch_r:
     def __init__(self, img):
         self.img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # 转换了灰度化
         self.words = []
@@ -176,5 +176,5 @@ class Ch_r1:
         # print("".join(self.result))
 
 # img = cv2.imread('license_plate/one/liaoA09030.jpg')  # 读取图片
-# ch = Ch_r1(img)
+# ch = Ch_r(img)
 # ch.fun()
