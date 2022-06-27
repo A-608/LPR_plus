@@ -175,6 +175,6 @@ class Ch_r:
         # "".join(self.result)  # 函数将列表转换为拼接好的字符串，方便结果显示
         # print("".join(self.result))
 
-# img = cv2.imread('license_plate/one/liaoA09030.jpg')  # 读取图片
-# ch = Ch_r(img)
-# ch.fun()
+img = cv2.imread('license_plate/one/liaoA09030.jpg')  # 读取图片
+ch = Ch_r(img)
+ch.fun()
